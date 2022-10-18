@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testfirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="AQAclass.A4_Information_Commands">
+        <methods>
+          <include name="gmail"/>
+          <include name="google_image"/>
+          <include name="searchbutton"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AQAclass.A4_Information_Commands -->
+      <class name="AQAclass.A1_Alerts">
+        <methods>
+          <include name="handlingalerts"/>
+          <include name="afterTest"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- AQAclass.A1_Alerts -->
+      <class name="AQAclass.B10_Autoit">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="fun"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AQAclass.B10_Autoit -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+  <test thread-count="5" name="Testchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="AQAclass.A4_Information_Commands">
+        <methods>
+          <include name="gmail"/>
+          <include name="google_image"/>
+          <include name="searchbutton"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AQAclass.A4_Information_Commands -->
+      <class name="AQAclass.A1_Alerts">
+        <methods>
+          <include name="handlingalerts"/>
+          <include name="afterTest"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- AQAclass.A1_Alerts -->
+      <class name="AQAclass.B10_Autoit">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="fun"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AQAclass.B10_Autoit -->
+    </classes>
+  </test> <!-- Testchrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,39 @@
+<suite name="Abascujsproject">
+	<test name="xmlexecution">
+
+		<classes>
+			
+			<class name="AQAclass.A1_Alerts">
+				
+				<methods>
+				<include name="handlingalerts"/>
+				</methods>
+				
+				</class>
+						
+			
+			<class name="AQAclass.B10_Autoit">
+				
+				<methods>
+				<include name="B10_Autoit"/>
+				</methods>
+				
+				</class>
+				
+				
+			<class name="BHighlevelBases.B15_Frames">
+				
+				<methods>
+				<include name="handlingalerts"/>
+				</methods>
+				
+				</class>
+				
+			
+			
+			
+		
+		</classes>
+	
+	</test>
+</suite>

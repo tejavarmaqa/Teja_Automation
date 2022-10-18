@@ -1,0 +1,46 @@
+<suite name="BankofBaroda">
+	<test name="TestExecution">
+
+		<classes>
+		
+		
+			<class name="AQAclass.A4_Information_Commands">
+				
+				<methods>
+				<include name="gmail"/>
+				</methods>
+				
+				<methods>
+				<include name="google_image"/>
+				</methods>
+				
+				
+				<methods>
+				<include name="searchbutton"/>
+				</methods>
+				
+				</class>
+				
+				
+				
+				<class name="BHighlevelBases.B13_Assert_Verify2">
+				
+				<methods>
+				<include name="fun"/>
+				</methods>
+				
+				</class>
+				
+				<class name="BHighlevelBases.B19_TestXLSX">
+				
+				<methods>
+				<include name="XLSX"/>
+				</methods>
+				
+				</class>
+			
+		
+		</classes>
+	
+	</test>
+</suite>

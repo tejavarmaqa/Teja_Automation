@@ -1,0 +1,25 @@
+Feature: Reset functionality on login page of Application 
+
+
+Scenario: Verification of Reset button 
+
+
+Given Open the Firefox and launch the application			
+
+
+When Enter the Username and Password			
+
+
+Then Reset the credential	
+
+
+@RunWith() annotation tells about the test runner class to start executing our tests.
+
+@CucmberOptions() annotation is used to set some properties for our cucumber test like feature file, 
+step definition, etc.
+
+@Given annotation define method to open firefox and launch the application
+
+@When annotation define method to enter the username and password
+
+@Then annotation define method to reset the credential

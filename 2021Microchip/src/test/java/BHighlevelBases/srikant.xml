@@ -1,0 +1,39 @@
+<suite name="Abascujsproject">
+	<test name="xmlexecution">
+
+		<classes>
+		
+		
+			<class name="AQAclass.A7_INR_optionsvalidation">
+				
+				<methods>
+				<include name="options"/>
+				</methods>
+				
+				</class>
+				
+				
+				
+				
+			<class name="BHighlevelBases.B12_Assert1">
+				
+				<methods>
+				<include name="fun"/>
+				</methods>
+				
+				</class>
+				
+	
+	<class name="BHighlevelBases.B17_Ajaxcontrol">
+				
+				<methods>
+				<include name="clickable"/>
+				</methods>
+				
+				</class>
+			
+		
+		</classes>
+	
+	</test>
+</suite>
